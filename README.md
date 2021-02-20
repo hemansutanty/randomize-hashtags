@@ -14,8 +14,8 @@ Being a photographer, I post and try to maintain a photography profile in Instag
 	python3 generate.py -cat portraits -no 27
 ```
 * If you want to generate a custom no of hashtags put the number after *-no* flag
-* If you want to genarate hashatags under a particular category put the category after *-cat* flag
+* If you want to generate hashtags under a particular category put the category after *-cat* flag
 
 ### How to customise
-* If you want to add hashtaggs to the existing category put all hashtags, one in every new line. Note you do not need to worry about duplicates, the generator takes care of picking unique hashtags
+* If you want to add hashtaggs to the existing category put all hashtags, one in every new line on the corresponding category file i.e. portraits.txt, travel.txt etc. Note you do not need to worry about duplicates, the generator takes care of picking unique hashtags
 * If you want your own set/category, create a category file in .txt extension. For e.g landscape.txt and put all hashtags, one in every new line and while generating put the exact file name after *-cat* flag
